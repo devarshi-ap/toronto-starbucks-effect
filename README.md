@@ -1,40 +1,42 @@
 # toronto-starbucks-effect
 ---
 
-### Tableau Worksheets: 
-
-![Ward Workforce](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/5bb95901-fa38-417c-8993-3cc9f69b7231)
-![Ward Education](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e1e0c2c8-3d18-4195-85bf-0c2056876b81)
-![Ward Unemployment](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e154df39-101e-41ba-9628-7de57d0ecf08)
-![Ward Income](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e554f24e-08b1-4a5f-9e49-b7a873a47b60)
-
 # Analysis of "Starbucks Effect" in Toronto
 This is a repository for getting experience in data analysis. All analysis was done by me, Devarshi Patel.<br />
-The datasets and Jupyter notebook used in the project is also included in this repository.<br />
+The datasets, Jupyter notebook, and Tableau workbook used in the project are also included in this repository.<br />
 The full report is also included in this repository.
-See link to **blog post** for a more concise report - 
 
 ## Introduction
-In 2019, 35% of new Canadian immigrants chose to settle in the City of Toronto. The City has 140 neighbourhoods, so, as a new immigrant, a vital question to answer is “What neighbourhood do I settle in?”. The aim of this project is to group Toronto neighborhoods in order of desirability using Machine Learning and Data Visualization techniques. I performed my analysis using on the following criteria:  <br />
-* Total number of **Essential Venues** in each neighbourhood  <br />
-* **Primary and Secondary Benchmarks**: Primary benchmarks considered were Unemployment rate, Crime rate and COVID-19 rates while the Secondary benchmark was housing price for a one-bedroom apartment in each neighbourhood.  <br />
+`Starbucks Effect` : describes the phenomena of increasing home and property values in the neighbourhoods surrounding a new Starbucks location.<br />
+An article by Zillow claimed that if you lived within 0.25 miles of a Starbucks location, the value of your home would have grown by 96% from 1997 to 2014.<br />
+
+Starbucks is about more than jut coffee. You’re paying for a nice social and work-space to sit in while you drink your coffee. Walk into most Starbucks and you’ll see lots of people working on laptops and other devices, using it as an on-the-road office or a break-from-the-regular-office workplace. But why is this? The most violent Starbucks store incident/experience is almost the nicest, most wholesome Tim Hortons one. But again, why? <br />
+
+🌱 Using locally-sourced datasets of neighbourhood profiles in the city of Toronto and Starbucks locations, I aim to figure out why, to an extent, the “Starbucks Effect” stands true.
 
 ## Methodology
 ### Python Libraries
 The libraries used on this project include:
 * Pandas – For storing and manipulating structured data. Pandas functionality is built on NumPy
-* Numpy – For multi-dimensional array, matrix data structures and, performing mathematical operations
-* Geopandas – For storing spatial data coordinates and shape files
-*	Scikit learn – For Machine learning tasks
 * Plotly Visualization Package – For all visualizations (including maps and graphs)
 *	Requests - to send HTTP requests easily
-*	Geopy – To retrieve location coordinates
+*	SQLAlchemy - SQL object-relation mapper (ORM) for making queries to MySQL
+
+### Tools
+Other tools used in this project include:
+* MySQL (TablePlus) - my choice of database management system
+* Kaggle - online community of open source datasets
+* City of Toronto Open Data - official source for Toronto open data from City divisions and agencies
+* Tableau Cloud - great online analytics platform for creating visualizations
+* dbdiagram.io - designing the database tables based on the relevant datasets collected
 
 ### Project Flowchart
 The main steps for this project can be summarized in the flow chart below:
 
 ![alt text](https://github.com/jess-data/Coursera_Capstone/blob/main/Screenshot%202020-11-24%20014704.png)
 
-## Final Results
-k-means clustering was used to group the neighbourhoods to obtain a final Neighbourhood Desirability index Choropleth Map
-![alt text](https://github.com/jess-data/Coursera_Capstone/blob/main/Toronto%20Neighbourhood%20Desirability%20Map.png)
+### Tableau Workbook:
+![Ward Workforce](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/5bb95901-fa38-417c-8993-3cc9f69b7231)
+![Ward Education](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e1e0c2c8-3d18-4195-85bf-0c2056876b81)
+![Ward Unemployment](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e154df39-101e-41ba-9628-7de57d0ecf08)
+![Ward Income](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e554f24e-08b1-4a5f-9e49-b7a873a47b60)
