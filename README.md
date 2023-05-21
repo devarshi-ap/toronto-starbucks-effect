@@ -35,6 +35,8 @@ The main steps for this project can be summarized in the flow chart below:
 
 ![alt text](https://github.com/jess-data/Coursera_Capstone/blob/main/Screenshot%202020-11-24%20014704.png)
 
+(ignore the ML part)
+
 ### Tableau Workbook:
 
 <span style="display: flex; flex-direction: row;">
