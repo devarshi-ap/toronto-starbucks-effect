@@ -36,7 +36,21 @@ The main steps for this project can be summarized in the flow chart below:
 ![alt text](https://github.com/jess-data/Coursera_Capstone/blob/main/Screenshot%202020-11-24%20014704.png)
 
 ### Tableau Workbook:
-![Ward Workforce](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/5bb95901-fa38-417c-8993-3cc9f69b7231)
-![Ward Education](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e1e0c2c8-3d18-4195-85bf-0c2056876b81)
-![Ward Unemployment](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e154df39-101e-41ba-9628-7de57d0ecf08)
-![Ward Income](https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e554f24e-08b1-4a5f-9e49-b7a873a47b60)
+
+<span style="display: flex; flex-direction: row;">
+  <img src="https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/5bb95901-fa38-417c-8993-3cc9f69b7231"
+     alt="Toronto Workforce Graph"
+     width="30%" />
+
+<img src="https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e1e0c2c8-3d18-4195-85bf-0c2056876b81"
+     alt="Toronto Education Graph"
+     width="30%" />
+
+<img src="https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/5bb95901-fa38-417c-8993-3cc9f69b7231"
+     alt="Toronto Unemployment Graph"
+     width="30%" />
+
+<img src="https://github.com/devarshi-ap/toronto-starbucks-effect/assets/59234436/e554f24e-08b1-4a5f-9e49-b7a873a47b60"
+     alt="Toronto Income Graph"
+     width="30%" />
+</div>
