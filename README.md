@@ -34,6 +34,14 @@ The main steps for this project can be summarized in the flow chart below:
 
 (ignore the ML part)
 
+### `Key Findings` :
+
+* 
+
+### `Limitations` :
+
+
+
 ### `Tableau Workbook` :
 
 <span style="display: flex; flex-direction: row;">
