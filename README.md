@@ -36,7 +36,16 @@ The main steps for this project can be summarized in the flow chart below:
 
 ### `Key Findings` :
 
-* 
+* There are 185 Starbucks in Toronto -- <u>134 stores</u> (72.43%) are located but in 6 wards.
+    - Ward 3: Etobicoke-Lakeshore,
+    - Ward 8: Eglinton-Lawrence,
+    - Ward 10: Spadina-Fort York,
+    - Ward 11: University-Rosedale,
+    - Ward 12: Toronto-St.Paul's,
+    - Ward 13: Toronto Centre
+* Around 35.2 %  of people educated with a Bachelors (and above) are found in these 6 wards
+* 5 of the 6 focus Wards (except outlier Ward 13 with 75K) have a very high average total household income (140k)- all of which make over 100K. This especially interesting since wards 10-13 have the 4 lowest average household sizes yet have a higher average total household income than most other wards.
+* As you enter Wards with an unemployment rate < 7.5%, the # Starbucks stores shoots up drastically.
 
 ### `Limitations` :
 
